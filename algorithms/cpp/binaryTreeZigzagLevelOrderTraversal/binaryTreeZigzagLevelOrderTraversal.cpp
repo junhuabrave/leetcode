@@ -51,6 +51,7 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <cstring>
 using namespace std;
 
 
@@ -114,6 +115,7 @@ vector<TreeNode*> TreeToArray_level_order(TreeNode* root){
     while (q.size()>0) {
         TreeNode* n = q.front();
         q.pop();
+        memcpy(a,b)
         result.push_back(n);
         if (n==NULL){
             //cout << "# ";
